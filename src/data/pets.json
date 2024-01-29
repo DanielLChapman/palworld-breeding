@@ -1,0 +1,692 @@
+[
+    {
+        "id": 100,
+        "name": "Anubis",
+        "power": 570
+    },
+    {
+        "id": 42,
+        "name": "Arsox",
+        "power": 790
+    },
+    {
+        "id": 98,
+        "name": "Astegon",
+        "power": 150
+    },
+    {
+        "id": 82,
+        "name": "Azurobe",
+        "power": 500
+    },
+    {
+        "id": 73,
+        "name": "Beakon",
+        "power": 220
+    },
+    {
+        "id": 50,
+        "name": "Beegarde",
+        "power": 1070
+    },
+    {
+        "id": 96,
+        "name": "Blazamut",
+        "power": 10
+    },
+    {
+        "id": 84,
+        "name": "Blazehowl",
+        "power": 710
+    },
+    {
+        "id": 84,
+        "name": "Blazehowl Noct",
+        "power": 670
+    },
+    {
+        "id": 30,
+        "name": "Bristla",
+        "power": 1320
+    },
+    {
+        "id": 86,
+        "name": "Broncherry",
+        "power": 860
+    },
+    {
+        "id": 86,
+        "name": "Broncherry Aqua",
+        "power": 840
+    },
+    {
+        "id": 72,
+        "name": "Bushi",
+        "power": 640
+    },
+    {
+        "id": 35,
+        "name": "Caprity",
+        "power": 930
+    },
+    {
+        "id": 2,
+        "name": "Cattiva",
+        "power": 1460
+    },
+    {
+        "id": 44,
+        "name": "Cawgnito",
+        "power": 1080
+    },
+    {
+        "id": 25,
+        "name": "Celaray",
+        "power": 870
+    },
+    {
+        "id": 3,
+        "name": "Chikipi",
+        "power": 1500
+    },
+    {
+        "id": 55,
+        "name": "Chillet",
+        "power": 800
+    },
+    {
+        "id": 41,
+        "name": "Cinnamoth",
+        "power": 490
+    },
+    {
+        "id": 18,
+        "name": "Cremis",
+        "power": 1455
+    },
+    {
+        "id": 83,
+        "name": "Cryolinx",
+        "power": 130
+    },
+    {
+        "id": 19,
+        "name": "Daedream",
+        "power": 1230
+    },
+    {
+        "id": 62,
+        "name": "Dazzi",
+        "power": 1210
+    },
+    {
+        "id": 17,
+        "name": "Depresso",
+        "power": 1380
+    },
+    {
+        "id": 67,
+        "name": "Digtoise",
+        "power": 850
+    },
+    {
+        "id": 64,
+        "name": "Dinossom",
+        "power": 820
+    },
+    {
+        "id": 64,
+        "name": "Dinossom Lux",
+        "power": 810
+    },
+    {
+        "id": 26,
+        "name": "Direhowl",
+        "power": 1060
+    },
+    {
+        "id": 43,
+        "name": "Dumud",
+        "power": 895
+    },
+    {
+        "id": 37,
+        "name": "Eikthyrdeer",
+        "power": 920
+    },
+    {
+        "id": 37,
+        "name": "Eikthyrdeer Terra",
+        "power": 900
+    },
+    {
+        "id": 51,
+        "name": "Elizabee",
+        "power": 330
+    },
+    {
+        "id": 80,
+        "name": "Elphidran",
+        "power": 540
+    },
+    {
+        "id": 80,
+        "name": "Elphidran Aqua",
+        "power": 530
+    },
+    {
+        "id": 105,
+        "name": "Faleris",
+        "power": 370
+    },
+    {
+        "id": 94,
+        "name": "Felbat",
+        "power": 1010
+    },
+    {
+        "id": 93,
+        "name": "Fenglope",
+        "power": 980
+    },
+    {
+        "id": 70,
+        "name": "Flambelle",
+        "power": 1405
+    },
+    {
+        "id": 28,
+        "name": "Flopie",
+        "power": 1280
+    },
+    {
+        "id": 57,
+        "name": "Foxcicle",
+        "power": 760
+    },
+    {
+        "id": 5,
+        "name": "Foxparks",
+        "power": 1400
+    },
+    {
+        "id": 110,
+        "name": "Frostallion",
+        "power": 120
+    },
+    {
+        "id": 110,
+        "name": "Frostallion Noct",
+        "power": 100
+    },
+    {
+        "id": 6,
+        "name": "Fuack",
+        "power": 1330
+    },
+    {
+        "id": 22,
+        "name": "Fuddler",
+        "power": 1220
+    },
+    {
+        "id": 47,
+        "name": "Galeclaw",
+        "power": 1030
+    },
+    {
+        "id": 31,
+        "name": "Gobfin",
+        "power": 1090
+    },
+    {
+        "id": 31,
+        "name": "Gobfin Ignis",
+        "power": 1100
+    },
+    {
+        "id": 49,
+        "name": "Gorirat",
+        "power": 1040
+    },
+    {
+        "id": 52,
+        "name": "Grintale",
+        "power": 510
+    },
+    {
+        "id": 103,
+        "name": "Grizzbolt",
+        "power": 200
+    },
+    {
+        "id": 13,
+        "name": "Gumoss",
+        "power": 1240
+    },
+    {
+        "id": 13,
+        "name": "Gumoss (Special)",
+        "power": 1240
+    },
+    {
+        "id": 32,
+        "name": "Hangyu",
+        "power": 1420
+    },
+    {
+        "id": 32,
+        "name": "Hangyu Cryst",
+        "power": 1422
+    },
+    {
+        "id": 97,
+        "name": "Helzephyr",
+        "power": 190
+    },
+    {
+        "id": 15,
+        "name": "Hoocrates",
+        "power": 1390
+    },
+    {
+        "id": 89,
+        "name": "Ice Kingpaca",
+        "power": 440
+    },
+    {
+        "id": 88,
+        "name": "Ice Reptyro",
+        "power": 230
+    },
+    {
+        "id": 40,
+        "name": "Incineram",
+        "power": 590
+    },
+    {
+        "id": 40,
+        "name": "Incineram Noct",
+        "power": 580
+    },
+    {
+        "id": 111,
+        "name": "Jetragon",
+        "power": 90
+    },
+    {
+        "id": 12,
+        "name": "Jolthog",
+        "power": 1370
+    },
+    {
+        "id": 12,
+        "name": "Jolthog Cryst",
+        "power": 1360
+    },
+    {
+        "id": 101,
+        "name": "Jormuntide",
+        "power": 310
+    },
+    {
+        "id": 101,
+        "name": "Jormuntide Ignis",
+        "power": 315
+    },
+    {
+        "id": 75,
+        "name": "Katress",
+        "power": 700
+    },
+    {
+        "id": 81,
+        "name": "Kelpsea",
+        "power": 1260
+    },
+    {
+        "id": 81,
+        "name": "Kelpsea Ignis",
+        "power": 1270
+    },
+    {
+        "id": 23,
+        "name": "Killamari",
+        "power": 1290
+    },
+    {
+        "id": 89,
+        "name": "Kingpaca",
+        "power": 470
+    },
+    {
+        "id": 61,
+        "name": "Kitsun",
+        "power": 830
+    },
+    {
+        "id": 1,
+        "name": "Lamball",
+        "power": 1470
+    },
+    {
+        "id": 45,
+        "name": "Leezpunk",
+        "power": 1120
+    },
+    {
+        "id": 45,
+        "name": "Leezpunk Ignis",
+        "power": 1140
+    },
+    {
+        "id": 4,
+        "name": "Lifmunk",
+        "power": 1430
+    },
+    {
+        "id": 46,
+        "name": "Loupmoon",
+        "power": 950
+    },
+    {
+        "id": 69,
+        "name": "Lovander",
+        "power": 940
+    },
+    {
+        "id": 63,
+        "name": "Lunaris",
+        "power": 1110
+    },
+    {
+        "id": 104,
+        "name": "Lyleen",
+        "power": 250
+    },
+    {
+        "id": 104,
+        "name": "Lyleen Noct",
+        "power": 210
+    },
+    {
+        "id": 90,
+        "name": "Mammorest",
+        "power": 300
+    },
+    {
+        "id": 90,
+        "name": "Mammorest Cryst",
+        "power": 290
+    },
+    {
+        "id": 66,
+        "name": "Maraith",
+        "power": 1150
+    },
+    {
+        "id": 24,
+        "name": "Mau",
+        "power": 1480
+    },
+    {
+        "id": 24,
+        "name": "Mau Cryst",
+        "power": 1440
+    },
+    {
+        "id": 36,
+        "name": "Melpaca",
+        "power": 890
+    },
+    {
+        "id": 99,
+        "name": "Menasting",
+        "power": 260
+    },
+    {
+        "id": 33,
+        "name": "Mossanda",
+        "power": 430
+    },
+    {
+        "id": 33,
+        "name": "Mossanda Lux",
+        "power": 390
+    },
+    {
+        "id": 29,
+        "name": "Mozzarina",
+        "power": 910
+    },
+    {
+        "id": 109,
+        "name": "Necromus",
+        "power": 70
+    },
+    {
+        "id": 38,
+        "name": "Nitewing",
+        "power": 420
+    },
+    {
+        "id": 21,
+        "name": "Nox",
+        "power": 1180
+    },
+    {
+        "id": 106,
+        "name": "Orserk",
+        "power": 140
+    },
+    {
+        "id": 108,
+        "name": "Paladius",
+        "power": 80
+    },
+    {
+        "id": 10,
+        "name": "Pengullet",
+        "power": 1350
+    },
+    {
+        "id": 11,
+        "name": "Penking",
+        "power": 520
+    },
+    {
+        "id": 87,
+        "name": "Petallia",
+        "power": 780
+    },
+    {
+        "id": 58,
+        "name": "Pyrin",
+        "power": 360
+    },
+    {
+        "id": 58,
+        "name": "Pyrin Noct",
+        "power": 240
+    },
+    {
+        "id": 95,
+        "name": "Quivern",
+        "power": 350
+    },
+    {
+        "id": 74,
+        "name": "Ragnahawk",
+        "power": 380
+    },
+    {
+        "id": 60,
+        "name": "Rayhound",
+        "power": 740
+    },
+    {
+        "id": 59,
+        "name": "Reindrix",
+        "power": 880
+    },
+    {
+        "id": 85,
+        "name": "Relaxaurus",
+        "power": 280
+    },
+    {
+        "id": 85,
+        "name": "Relaxaurus Lux",
+        "power": 270
+    },
+    {
+        "id": 88,
+        "name": "Reptyro",
+        "power": 320
+    },
+    {
+        "id": 39,
+        "name": "Ribunny",
+        "power": 1310
+    },
+    {
+        "id": 48,
+        "name": "Robinquill",
+        "power": 1020
+    },
+    {
+        "id": 48,
+        "name": "Robinquill Terra",
+        "power": 1000
+    },
+    {
+        "id": 9,
+        "name": "Rooby",
+        "power": 1155
+    },
+    {
+        "id": 20,
+        "name": "Rushoar",
+        "power": 1130
+    },
+    {
+        "id": 107,
+        "name": "Shadowbeak",
+        "power": 60
+    },
+    {
+        "id": 79,
+        "name": "Sibelyx",
+        "power": 450
+    },
+    {
+        "id": 7,
+        "name": "Sparkit",
+        "power": 1410
+    },
+    {
+        "id": 65,
+        "name": "Surfent",
+        "power": 560
+    },
+    {
+        "id": 65,
+        "name": "Surfent Terra",
+        "power": 550
+    },
+    {
+        "id": 102,
+        "name": "Suzaku",
+        "power": 50
+    },
+    {
+        "id": 102,
+        "name": "Suzaku Aqua",
+        "power": 30
+    },
+    {
+        "id": 53,
+        "name": "Swee",
+        "power": 1300
+    },
+    {
+        "id": 54,
+        "name": "Sweepa",
+        "power": 410
+    },
+    {
+        "id": 8,
+        "name": "Tanzee",
+        "power": 1250
+    },
+    {
+        "id": 16,
+        "name": "Teafant",
+        "power": 1490
+    },
+    {
+        "id": 27,
+        "name": "Tocotoco",
+        "power": 1340
+    },
+    {
+        "id": 68,
+        "name": "Tombat",
+        "power": 750
+    },
+    {
+        "id": 56,
+        "name": "Univolt",
+        "power": 680
+    },
+    {
+        "id": 78,
+        "name": "Vaelet",
+        "power": 1050
+    },
+    {
+        "id": 71,
+        "name": "Vanwyrm",
+        "power": 660
+    },
+    {
+        "id": 71,
+        "name": "Vanwyrm Cryst",
+        "power": 620
+    },
+    {
+        "id": 77,
+        "name": "Verdash",
+        "power": 990
+    },
+    {
+        "id": 14,
+        "name": "Vixy",
+        "power": 1450
+    },
+    {
+        "id": 92,
+        "name": "Warsect",
+        "power": 340
+    },
+    {
+        "id": 76,
+        "name": "Wixen",
+        "power": 1160
+    },
+    {
+        "id": 34,
+        "name": "Woolipop",
+        "power": 1190
+    },
+    {
+        "id": 91,
+        "name": "Wumpo",
+        "power": 460
+    },
+    {
+        "id": 91,
+        "name": "Wumpo Botan",
+        "power": 480
+    }
+]
