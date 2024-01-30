@@ -6,6 +6,7 @@ import palsData from './data/pets.json';
 import tieBreaksData from './data/tiebreak.json';
 import { Combinations, Pal } from '../types';
 import { calculateCombinations } from './data/combinations';
+import FindChild from './PalData/FindChild';
 
 const combineData = (): Pal[] => {
   return palsData.map((pal, i) => {
@@ -24,21 +25,41 @@ function App() {
     const cn = calculateCombinations(p);
     setPals(p);
     setCombinations(cn);
-    console.log(cn);
+
   }, []);
 
   const updatePals = (palArray: Pal[]) => {
     const cn = calculateCombinations(palArray);
-    console.log(cn);
+    setCombinations(cn);
+    setPals(palArray);
 
   }
-
-  console.log(pals)
 
   return (
     <div className="App">
       <Header pals={pals}  updatePals={updatePals}/>
-      {/* Render your pals data here */}
+
+
+        <h3 className="">
+          Find Child From Parents
+          <FindChild currentPals={pals} />
+        </h3>
+
+        <h3 className="">
+          All Potential Possibilities with a Parent
+        </h3>
+
+        <h3 className="">
+          All Potential Combinations to make child
+        </h3>
+
+        <h3 className="">
+          Search for Target path to child with specific parent
+        </h3>
+
+        
+
+        
       <Footer />
     </div>
   );

@@ -15,7 +15,12 @@ export interface TieBreak {
 }
 
 export interface Combinations {
-    parent1: number;
-    parent2: number;
-    child: number;
+    parent1_power: number;
+    parent2_power: number;
+    child_power: number;
+}
+
+export interface ParentPairs {
+    parent1: Pal;
+    parent2: Pal;
 }

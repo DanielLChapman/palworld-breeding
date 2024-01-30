@@ -32,6 +32,7 @@ function Sidebar({pals, updatePals}: PalTableProps) {
     }
 
     const onSave = () => {
+        console.log(currentPals)
         updatePals(currentPals);
     }
     
