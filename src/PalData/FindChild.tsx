@@ -13,7 +13,6 @@ function FindChild({ currentPals }: FindChildProps) {
     const [child, setChild] = useState<Pal | null>();
 
     useEffect(() => {
-        console.log(parent1, parent2, child);
         if (parent1 && parent2) {
             // Execute some code when either parent1 or parent2 changes
             calculateChild();
@@ -36,8 +35,8 @@ function FindChild({ currentPals }: FindChildProps) {
 
     return (
         <div>
-            <DropDown currentPals={currentPals} returnFunc={setParent1} />
-            <DropDown currentPals={currentPals} returnFunc={setParent2} />
+            <DropDown currentPals={currentPals} returnFunc={setParent1} useHave={true} />
+            <DropDown currentPals={currentPals} returnFunc={setParent2} useHave={true} />
 
 
             {

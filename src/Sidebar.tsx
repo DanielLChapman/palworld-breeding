@@ -15,10 +15,11 @@ function Sidebar({pals, updatePals}: PalTableProps) {
         if (!pals) return;
         // Sort pals by palNumber, and then by name length in case of a tie
         const sortedPals = [...pals].sort((a:Pal, b:Pal) => {
-            if (a.palNumber === b.palNumber) {
+            return a.name.localeCompare(b.name);
+            /*if (a.palNumber === b.palNumber) {
                 return a.name.length - b.name.length; // Shorter name first if palNumber is the same
             }
-            return a.palNumber - b.palNumber; // Sort by palNumber
+            return a.palNumber - b.palNumber; // Sort by palNumber*/
         });
 
         setCurrentPals(sortedPals);
@@ -32,7 +33,6 @@ function Sidebar({pals, updatePals}: PalTableProps) {
     }
 
     const onSave = () => {
-        console.log(currentPals)
         updatePals(currentPals);
     }
     

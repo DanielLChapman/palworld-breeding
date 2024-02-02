@@ -7,6 +7,9 @@ import tieBreaksData from './data/tiebreak.json';
 import { Combinations, Pal } from '../types';
 import { calculateCombinations } from './data/combinations';
 import FindChild from './PalData/FindChild';
+import AllPossibleChildrenFromSingleParent from './PalData/AllPossibleChildrenFromSingleParent';
+import FindParentOptions from './PalData/FindParentOptions';
+import { precalculatedCombinations } from './data/combinationData';
 
 const combineData = (): Pal[] => {
   return palsData.map((pal, i) => {
@@ -17,20 +20,17 @@ const combineData = (): Pal[] => {
 
 function App() {
   const [pals, setPals] = useState<Pal[]>([]);
-  const [combinations, setCombinations] = useState<Combinations[]>();
+  const [combinations, setCombinations] = useState<Combinations[]>(precalculatedCombinations);
 
   useEffect(() => {
     let p = combineData();
-    
-    const cn = calculateCombinations(p);
     setPals(p);
-    setCombinations(cn);
-
   }, []);
 
   const updatePals = (palArray: Pal[]) => {
-    const cn = calculateCombinations(palArray);
+    const cn = calculateCombinations(palArray, true);
     setCombinations(cn);
+    console.log(cn);
     setPals(palArray);
 
   }
@@ -47,10 +47,12 @@ function App() {
 
         <h3 className="">
           All Potential Possibilities with a Parent
+          <AllPossibleChildrenFromSingleParent currentPals={pals} />
         </h3>
 
         <h3 className="">
           All Potential Combinations to make child
+          <FindParentOptions currentPals={pals} combinations={combinations} />
         </h3>
 
         <h3 className="">

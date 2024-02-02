@@ -4,9 +4,10 @@ import { Pal } from "../../types";
 type DropDownProps = {
     currentPals: Pal[];
     returnFunc: (selectedPal: Pal) => void;
+    useHave?: boolean;
 };
 
-function DropDown({ currentPals, returnFunc }: DropDownProps) {
+function DropDown({ currentPals, returnFunc, useHave }: DropDownProps) {
 
     const handleSelectionChange = (
         event: React.ChangeEvent<HTMLSelectElement>
@@ -23,13 +24,22 @@ function DropDown({ currentPals, returnFunc }: DropDownProps) {
             <select onChange={handleSelectionChange}>
                 <option value="-1">-</option>
                 {currentPals.map((pal) => {
-                    if (pal.have) {
+                    if (useHave) {
+                        if (pal.have) {
+                            return (
+                                <option key={pal.id} value={pal.id}>
+                                    {pal.name}
+                                </option>
+                            );
+                        } 
+                    } else {
                         return (
                             <option key={pal.id} value={pal.id}>
                                 {pal.name}
                             </option>
                         );
                     }
+                    
                 })}
             </select>
         </div>

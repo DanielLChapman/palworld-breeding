@@ -20,6 +20,12 @@ export interface Combinations {
     child_power: number;
 }
 
+export interface NamedCombinations {
+    parent1: Pal;
+    parent2: Pal;
+    child: Pal;
+}
+
 export interface ParentPairs {
     parent1: Pal;
     parent2: Pal;
